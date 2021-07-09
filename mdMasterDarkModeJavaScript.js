@@ -66,7 +66,7 @@ const toggleDarkMode = () => {
 document.addEventListener('visibilitychange', function () {
     initDarkMode();
 });
-document.getElementById('mdrDarkMode').addEventListener('click', () => {
+document.getElementById('pageDarkMode').addEventListener('click', () => {
     toggleDarkMode()
 })
 
