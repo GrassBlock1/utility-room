@@ -1,0 +1,20 @@
+/* 
+  Reset CSS for me
+  Copyright (c) 2021 KuoHuanHuan 
+*/
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+}
+html {
+	line-height: 1;
+}
+blockquote {
+	quotes: none;
+}
+blockquote::before, blockquote::after {
+	content: '';
+	content: none;
+}
