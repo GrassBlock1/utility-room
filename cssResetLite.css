@@ -11,10 +11,3 @@
 html {
 	line-height: 1;
 }
-blockquote {
-	quotes: none;
-}
-blockquote::before, blockquote::after {
-	content: '';
-	content: none;
-}
